@@ -9,7 +9,6 @@ const leftProgressBars = {
             title: 'Web design',
             value: 86
         },
-        {},
         {
             title: 'Web development',
             value: 50

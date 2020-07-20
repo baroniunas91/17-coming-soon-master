@@ -2,13 +2,15 @@ import socials from '../data/socials.js';
 import progressBars from '../data/progress-bars.js';
 import renderIcons from './renderIcons.js';
 import renderClock from './clock.js';
+import renderCount from './renderCount.js';
 import renderProgressBars from './renderProgressBars.js';
 
 const { leftProgressBars } = progressBars;
 
-renderIcons( '.icons-list', socials );
-renderClock( '.clock' );
+renderIcons('.icons-list', socials);
+// renderClock('.clock');
+renderCount();
 
 
-renderProgressBars( leftProgressBars );
+renderProgressBars(leftProgressBars);
 
